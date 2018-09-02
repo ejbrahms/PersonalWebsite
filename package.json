@@ -1,0 +1,38 @@
+{
+  "name": "eric_brahms_website",
+  "version": "1.0.0",
+  "description": "This is my personal site, yo.",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ejbrahms/personal_website.git"
+  },
+  "author": "Eric Brahms",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ejbrahms/personal_website/issues"
+  },
+  "homepage": "https://github.com/ejbrahms/personal_website#readme",
+  "babel": {
+    "presets": [
+      "env",
+      "react"
+    ]
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "react-hot-loader": "^4.3.5"
+  },
+  "dependencies": {
+    "react": "^16.4.2",
+    "react-bootstrap": "^0.32.3",
+    "react-dom": "^16.4.2",
+    "react-router": "^4.3.1"
+  }
+}
